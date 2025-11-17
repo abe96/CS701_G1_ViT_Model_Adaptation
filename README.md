@@ -10,7 +10,7 @@ Through rigorous ablation studies, the key finding was that an **Side Adapter-on
 Training was conducted under constraints including GPU time, VRAM limits (4 hours max on a 24 GB RTX 3090), and available data. The dataset consisted of:
 - 450,000 training images (approximately 45 images per class)
 - 50,000 validation images (around 5 images per class)
-- An unknown test set with approximately 1,000,000 images
+- An unknown test set with approximately 100,000 images
 
 ### Final Results
 - **Best Single Model:** **74.44%** accuracy (`adapter` + 4 blocks unfrozen, 20 epochs, 0.2 augmentation)
