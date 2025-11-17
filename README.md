@@ -13,7 +13,7 @@ Training was conducted under constraints including GPU time, VRAM limits (4 hour
 - An unknown test set with approximately 100,000 images
 
 ### Final Results
-- **Best Single Model:** **74.44%** accuracy (`adapter` + 4 blocks unfrozen, 20 epochs, 0.2 augmentation)
+- **Best Single Model:** **74.44%** accuracy (`adapter` + 4 blocks unfrozen, 19 epochs)
 - **Best LoRA Model:** **73.65%** accuracy (`lora` + 4 blocks unfrozen, 17 epochs)
 
 For further details, please refer to the associated scripts and documentation.
